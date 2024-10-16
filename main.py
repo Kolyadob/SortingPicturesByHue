@@ -33,8 +33,8 @@ def colour_name(hsv_color_dict, predominant_hue):
 
 
 # Папка с изображениями
-input_folder = 'D:\\Pictures'
-output_folder = 'D:\\Sorted_Pictures'
+input_folder = 'Pictures'
+output_folder = 'Sorted_Pictures'
 
 # Получаем список файлов в папке
 image_files = os.listdir(input_folder)
